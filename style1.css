@@ -7,7 +7,7 @@ body,html{
     background-color: black;
     max-height: 100vh;
     width: 100vw;
-    background: url(rede/pacote-d013/pacote-d013/imagens/fundo-madeira.jpg)  no-repeat top center;; 
+    background: url(pacote-d013/pacote-d013/imagens/fundo-madeira.jpg)  no-repeat top center;; 
     background-size: cover;
 }
 main{
@@ -22,7 +22,7 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: url(rede/pacote-d013/pacote-d013/imagens/frame-iphone.png) no-repeat;
+    background: url(pacote-d013/pacote-d013/imagens/frame-iphone.png) no-repeat;
 }
 #telaiphone{
     height: 470px;
@@ -32,7 +32,7 @@ main{
     top: 50.4%;
     left: 50.1%;
     transform: translate(-50%, -50%);
-    background: url(rede/pacote-d013/pacote-d013/imagens/tela-home.jpg) no-repeat;
+    background: url(pacote-d013/pacote-d013/imagens/tela-home.jpg) no-repeat;
     background-size: cover;
 
 }
@@ -50,9 +50,11 @@ section#redes {
 text-align: right;
 }
 section#redes img:hover{
-  border: 1px solid white;
+  border: 1px solid rgba(154, 220, 254, 0.745);
   transform: translate(-5px);
-  transition: .2s, border .5s;
+  transition: .2s,border .5s ;
+  width: 51px;
+ 
    
   }
   
